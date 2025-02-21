@@ -110,6 +110,20 @@ header span {
 /* Navigation */
 nav {
     background-color: #ffa1fa;
+    height: 48px;
+    line-height: 48px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
 }
 
 nav ul {
@@ -127,6 +141,7 @@ nav a {
     color: #520798;
     font-weight: 700;
     border: none;
+    text-decoration: none;
 }
 
 nav li.active a {
