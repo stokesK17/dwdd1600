@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kylie Stokes">
+    <meta name="description"
+        content="Explore my personal music universe, featuring genres, playlists, and favorite tracks.">
+    <title>My Music Universe: Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="images/logo.png" alt="logo" width="80">
+        </figure>
+        <span>My Music Universe</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="magazines.html">Magazines</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Genres</button>
+                    <div class="dropdown-content">
+                        <a href="pop.html">Pop</a>
+                        <a href="rock.html">Rock</a>
+                        <a href="hiphoprap.html">Hip-Hop/Rap</a>
+                        <a href="jazz.html">Jazz</a>
+                        <a href="rnb.html">R&B</a>
+                        <a href="classical.html">Classical</a>
+                        <a href="edm.html">EDM</a>
+                        <a href="country.html">Country</a>
+                        <a href="blues.html">Blues</a>
+                        <a href="folk.html">Folk</a>
+                        <a href="metal.html">Metal</a>
+                        <a href="alt.html">Indie/Alternative</a>
+                    </div>
+                </div>
+            </li>
+            <li class="active"><a href="stay_connected.html">Stay Connected</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the page main -->
+    <main>
+        <h1>Sign Up for SMS Updates and Promotions 🎧</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <legend>Customer Information:</legend>
+                <label>First Name*<input type="text" name="fname" required>
+                </label>
+                <label>Last Name*<input type="text" name="lname" required>
+                </label>
+                <label>Address*<input type="text" name="address" required>
+                </label>
+                <label>Phone Number*<input type="text" name="phone" required>
+                </label>
+                <label>Email*<input type="text" name="email" required>
+                </label>
+            </fieldset>
+
+            <section>
+                <fieldset>
+                    <legend>How do you want us to contact you?</legend>
+                    <label><input type="radio" name="method" value="text">SMS Messaging</label>
+                    <label><input type="radio" name="method" value="email">Email</label>
+                    <label><input type="radio" name="method" value="mail">Mail</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Preferences:</legend>
+                    <label><input type="checkbox" name="deals" value="chosen">Exclusive deals and promotions.</label>
+                    <label><input type="checkbox" name="announcements" value="chosen">Announcements and breaking
+                        news.</label>
+                    <label><input type="checkbox" name="digest" value="chosen">Weekly Digest - Our top articles, posted
+                        every Friday.</label>
+                    <label><input type="checkbox" name="none" value="chosen">Unsubscribe from all messaging.</label>
+
+                    <label>How often would you like to be contacted?
+                        <select name="time">
+                            <option value="none">Please Select</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="biweekly">Biweekly</option>
+                            <option value="monthly">Monthly</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </section>
+            <section>
+                <label>Post a comment!
+                    <textarea name="Comments" id=""
+                        placeholder="If you want to see any of your favorite tunes, let me know!"></textarea>
+                </label>
+
+                <input type="submit" value="Update Your Preferences">
+            </section>
+
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; Drone Delivery Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+
+</html>
