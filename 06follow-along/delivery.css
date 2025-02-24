@@ -131,7 +131,7 @@ main a {
 }
 
 .myForm :required {
-    background-color: rgba(156, 51, 53, 0.1)
+    background-color: rgba(156, 51, 53, 0.1);
 }
 
 .myForm [type=submit] {
