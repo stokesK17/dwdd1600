@@ -269,12 +269,14 @@ div.gallery figcaption b {
 .myForm select,
 .myForm [type=text],
 .myForm [type=tel],
+.myForm [type=email],
 .myForm textarea {
     display: block;
 }
 
 .myForm [type=text],
 .myForm [type=tel],
+.myForm [type=email],
 .myForm select,
 .myForm textarea {
     border: solid 1px #a6ff96;
@@ -295,9 +297,7 @@ div.gallery figcaption b {
     color: #a6ff96;
 }
 
-.myForm [type=submit],
-.myForm [type=telphone],
-.myForm [type=email] {
+.myForm [type=submit] {
     font-family: "Rokkitt", serif;
     background-color: #a6ff96;
     border: none;
