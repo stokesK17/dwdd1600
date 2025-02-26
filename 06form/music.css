@@ -295,7 +295,9 @@ div.gallery figcaption b {
     color: #a6ff96;
 }
 
-.myForm [type=submit] {
+.myForm [type=submit],
+.myForm [type=telphone],
+.myForm [type=email] {
     font-family: "Rokkitt", serif;
     background-color: #a6ff96;
     border: none;
