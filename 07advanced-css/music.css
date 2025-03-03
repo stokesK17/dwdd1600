@@ -155,13 +155,13 @@ main img {
 .gallery {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: auto;
+    padding: .5rem;
     margin: auto;
 }
 
 div.gallery figure img{
     display: flex;
-    width: 300;
+    width: 300px;
     height: auto;
 }
 
